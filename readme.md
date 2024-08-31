@@ -77,6 +77,9 @@
     grpc.client.payment-service.negotiation-type=plaintext
     ```
 
+## Testing the application:
+* Use `http://localhost:8081/order` to access the `order service` endpoint using `REST` which will internally connect to `payment service` using `GRPC`.
+* The expected outcome is `Payment is confirmed` message in the response.
 
 
 
