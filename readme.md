@@ -24,6 +24,8 @@
       ```
   * Upon build, the java service class, request and response class are generated from this file.
   * These generated classes can be found in the `target -> generated-sources -> protobuf` directory.
+    <img width="384" alt="Screenshot 2024-08-31 at 12 25 03 PM" src="https://github.com/user-attachments/assets/6e1112d2-6577-499f-bbfc-2d88a330febe">
+
 
 ### payment-service (GRPC server):
   * Define the implementation of the GRPC service by extending the above generated service like below:
